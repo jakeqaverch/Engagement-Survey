@@ -342,4 +342,57 @@
 
 - The sentiment on this question is relatively negative with 34.5% of respondents answering positively.
 
+# Metric Analysis
 
+## Satisfaction
+- Combined metric of all questions measuring employees overal satisfaction.
+  
+| Metric | Value  |
+|--------|--------|
+| Mean   | 12.819 |
+| Std    | 2.275  |
+| Min    | 4      |
+| 25%    | 11     |
+| 50%    |13      |
+| 75%    | 14     |
+| Max    | 19     |
+
+## Work Life Balance
+- Combined metric of the questions dealing with work life balance
+  
+| Metric | Value  |
+|--------|--------|
+| Mean   | 0.901 |
+| Std    | 0.751 |
+| Min    | 0      |
+| 25%    | 0     |
+| 50%    | 1      |
+| 75%    | 1     |
+| Max    | 3     |
+
+## Leadership Support
+- Combined metric of the questions dealing with support of senior leadership.
+
+| Metric | Value  |
+|--------|--------|
+| Mean   | 4.084 |
+| Std    | .84 |
+| Min    | 1      |
+| 25%    | 4     |
+| 50%    | 4      |
+| 75%    | 5     |
+| Max    | 5     |
+
+## Manager Support
+
+- Combined metric of the questions dealing with support of individual managers.
+
+| Metric | Value  |
+|--------|--------|
+| Mean   | 4.052 |
+| Std    | .882 |
+| Min    | 1      |
+| 25%    | 4     |
+| 50%    | 4      |
+| 75%    | 5     |
+| Max    | 5     |
