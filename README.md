@@ -36,6 +36,18 @@
 | Training                 | 72    | 0.072      |
 | Research and Development | 71    | 0.071      |
 
+| Race             | Count | Proportion |
+|------------------|-------|------------|
+| Entry Level        | 424          | 0.424      |
+| Junior            | 360   | 0.360      |
+| Mid-Level         | 126           | 0.126      |
+| Senior | 59    | 0.059      |
+| Executive            | 31    | 0.031      |
+
+- Gender distribution is balanced
+- Majority of the individuals are Caucasian (54.3% of the dataset), followed by Asians (22.8%)
+- Significant portion of the workforce is at the Entry Level (42.4%) and Junior level (36%), indicating a young or early-career workforce. Senior levels make up a smaller fraction, which is typical as organizational pyramids narrow at the top
+
 ## On a scale of 0 to 10, how likely is it that you would recommend DataSkillUp as a place to work?      
 
 | Number | Count | Proportion |
@@ -51,6 +63,8 @@
 | 9      | 162   | 0.162      |
 | 10     | 112   | 0.112      |
 
+- The sentiment on this question is relatively positive with 83.3% of respondents answering with a 6 or greater. 
+
 ## Overall, I am satisfied with my experience working at DataSkillUp
 
 | Number | Count | Proportion |
@@ -61,6 +75,9 @@
 | 4      | 555   | 0.555      |
 | 5      | 43    | 0.043      |
 | % Positive || 59.8           |
+
+- The sentiment on this question is relatively mixed with 59.8% of respondents answering positively.
+- The 13% who answered with a 2 warrent further investigation.
 
 ## I can see that senior leaders (Directors+) in my org value people’s differences.         
 
@@ -73,6 +90,8 @@
 | 5      | 304   | 0.304      |
 | % Positive || 72.4           |
 
+- The sentiment on this question is relatively positive with 72.4% of respondents answering positively.
+
 ## The executive leadership team (SVP+) keeps me informed about what is happening at DataSkillUp     
 
 | Number | Count | Proportion |
@@ -83,6 +102,9 @@
 | 4      | 557   | 0.557      |
 | 5      | 51    | 0.051      |
 | % Positive || 60.8           |
+
+- The sentiment on this question is relatively mixed with 60.8% of respondents answering positively.
+- It is a positive sign that no one answered with a 1.
 
 ## I believe in DataSkillUp's ambitions as a company.    
 
@@ -95,6 +117,8 @@
 | 5      | 319   | 0.319      |
 | % Positive || 94.6          |
 
+- The sentiment on this question is relatively positive with 94.6% of respondents answering positively.
+- All respondants answered with a 3+ which is very positive.
 
 ## I trust DataSkillUp's senior leaders (Directors+).      
 
@@ -107,6 +131,7 @@
 | 5      | 220   | 0.220      |
 | % Positive || 80.6          |
 
+- The sentiment on this question is relatively positive with 80.6% of respondents answering positively.
 
 ## I believe my manager genuinely cares about me and my wellbeing. 
 
@@ -119,6 +144,9 @@
 | 5      | 633   | 0.633      |
 | % Positive || 100          |
 
+- The sentiment on this question is positive with 100% of respondents answering positively.
+- This is a very good sign for overall manager support.
+
 ## I feel recognized for my contributions.  
 
 | Number | Count | Proportion |
@@ -130,6 +158,7 @@
 | 5      | 43    | 0.043      |
 | % Positive || 80.2         |
 
+- The sentiment on this question is positive with 80.2% of respondents answering positively.
 
 ## I can come to work without feeling the need to hide a part of who I am.  
 
@@ -142,8 +171,8 @@
 | 5      | 153   | 0.153      |
 | % Positive || 64.4         |
 
-
--This 1 outlier should be examined further
+- The sentiment on this question is relatively mixed with 64.4% of respondents answering positively.
+-This 1 outlier should be examined further as they may feel marginalized within their group.
 
 ## I have a good working relationship with members of my team.   
 
@@ -156,8 +185,8 @@
 | 5      | 344   | 0.344      |
 | % Positive || 94.4          |
 
-
--This 1 outlier should be examined further
+- The sentiment on this question is positive with 94.4% of respondents answering positively.
+- The outlier who answered 2 should be examined further as they may need to change teams.
 
 ## My manager gives me the autonomy I need to do my best work.    
 
@@ -170,6 +199,8 @@
 | 5      | 173   | 0.173      |
 | % Positive || 79.2          |
 
+- The sentiment on this question is positive with 79.2% of respondents answering positively.
+- The outliers who answered 2 should be examined further as they may need to change managers.
 
 ## My manager gives me the opportunity to try new things that align with my career goals. 
 
@@ -182,6 +213,8 @@
 | 5      | 91    | 0.091      |
 | % Positive || 70.1          |
 
+- The sentiment on this question is relatively positive with 70.1% of respondents answering positively.
+- The outliers who answered 2 should be examined further.
 
 ## My manager creates an environment where I can safely learn from my mistakes. 
 
@@ -194,6 +227,7 @@
 | 5      | 147   | 0.147      |
 | % Positive || 61.3          |
 
+- The sentiment on this question is relatively mixed with 61.3% of respondents answering positively.
 
 ## I believe action will take place as a result of this survey.   
 
@@ -206,6 +240,8 @@
 | 5      | 162   | 0.162      |
 | % Positive || 48.5          |
 
+- The sentiment on this question is relatively negative with 48.5% of respondents answering positively.
+- This should be examined further based on results from previous surveys
 
 ## I know what I need to do to be successful in my role.   
 
@@ -218,6 +254,8 @@
 | 5      | 50    | 0.050      |
 | % Positive || 65.9          |
 
+- The sentiment on this question is relatively mixed with 65.9% of respondents answering positively.
+- The outliers who answered 2 should be examined further as they may need more support
 
 ## I believe that my skills are well utilized in my role.	  
 
@@ -230,8 +268,8 @@
 | 5      | 6     | 0.006      |
 | % Positive || 35.1          |
 
-
--This 1 outlier should be examined further
+- The sentiment on this question is relatively negative with 35.1% of respondents answering positively.
+-This 1 outlier should be examined further.
 
 ## I receive regular, actionable feedback throughout the year.
 
@@ -244,6 +282,7 @@
 | 5      | 344   | 0.344      |
 | % Positive || 94.6          |
 
+- The sentiment on this question is relatively positive with 94.6% of respondents answering positively.
 
 ## I believe that my current role is well aligned with my career goals.  
 
@@ -256,6 +295,7 @@
 | 5      | 3     | 0.003      |
 | % Positive || 29.9          |
 
+- The sentiment on this question is relatively negative with 29.9% of respondents answering positively.
 
 ## I am able to disconnect from job-related stress after I've completed a typical workday.
 
@@ -268,6 +308,8 @@
 | 5      | 70    | 0.070     |
 | % Positive || 33.4         |
 
+- The sentiment on this question is relatively negative with 33.4% of respondents answering positively.
+
 ## Generally, I believe my workload is reasonable for my role.	
 
 | Number | Count | Proportion |
@@ -279,6 +321,8 @@
 | 5      | 55    | 0.055      |
 | % Positive || 22.2         |
 
+- The sentiment on this question is relatively negative with 22.2% of respondents answering positively.
+- There were a large number 1 answers here indicated low work life balance but we will examine that further later.
 
 ## I have enough flexibility to meet the needs of my personal life.	
 
@@ -290,5 +334,7 @@
 | 4      | 337   | 0.337      |
 | 5      | 8     | 0.008      |
 | % Positive || 34.5          |
+
+- The sentiment on this question is relatively negative with 34.5% of respondents answering positively.
 
 
