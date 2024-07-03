@@ -1,4 +1,4 @@
-# Engagement-Survey
+# Engagement Survey
 # Data Overview
 
 ![image](https://github.com/jakeqaverch/Engagement-Survey/assets/170358772/82f4f68e-d4a9-4f6f-a582-ce2009746b28)
@@ -48,6 +48,8 @@
 - Majority of the individuals are Caucasian (54.3% of the dataset), followed by Asians (22.8%)
 - Significant portion of the workforce is at the Entry Level (42.4%) and Junior level (36%), indicating a young or early-career workforce. Senior levels make up a smaller fraction, which is typical as organizational pyramids narrow at the top
 
+# Individual Question Analysis
+
 ## On a scale of 0 to 10, how likely is it that you would recommend DataSkillUp as a place to work?      
 
 | Number | Count | Proportion |
@@ -62,8 +64,11 @@
 | 8      | 208   | 0.208      |
 | 9      | 162   | 0.162      |
 | 10     | 112   | 0.112      |
+| Mean ||7.213|
+| Std ||1.944
 
-- The sentiment on this question is relatively positive with 83.3% of respondents answering with a 6 or greater. 
+
+- The sentiment on this question is relatively positive with 83.3% of respondents answering with a 6 or greater and a mean of 7.213.
 
 ## Overall, I am satisfied with my experience working at DataSkillUp
 
