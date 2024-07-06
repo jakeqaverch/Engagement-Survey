@@ -397,7 +397,7 @@
 | 75%    | 5     |
 | Max    | 5     |
 
-# Question Analysis by Groups
+# Question + Metric Analysis by Groups
 ## Gender 
 ### % Positivity
 | Gender | Q1  | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 | Q13 | Q14 | Q15 | Q16 | Q17 | Q18 | Q19 | Q20 |
@@ -409,6 +409,30 @@
 |--------|-------|------|-----|
 | Male   |510|7.40|2.02|
 | Female |490|7.01|1.83|
+
+### Happiness
+| Gender | Count | Mean | Std |
+|--------|-------|------|-----|
+| Male   |510|13.86|2.02|
+| Female |490|11.73|1.99|
+
+### Work-Life Balance
+| Gender | Count | Mean | Std |
+|--------|-------|------|-----|
+| Male   |510|1.02|.76|
+| Female |490|.77|.71|
+
+### Leadership Support
+| Gender | Count | Mean | Std |
+|--------|-------|------|-----|
+| Male   |510|4.31|.78|
+| Female |490|3.84|.82|
+
+### Manager Support
+| Gender | Count | Mean | Std |
+|--------|-------|------|-----|
+| Male   |510|4.47|.65|
+| Female |490|3.60|.87|
 
 ## Race
 ### % Positivity
@@ -429,6 +453,43 @@
 | Hispanic           |96|6.30|2.73|
 | Other              |43|6.79|2.73|
 
+### Hapiness
+| Race             |   Mean |   Std |
+|:-----------------|------------------------:|-----------------------:|
+| African American |                 11.21 |                1.89 |
+| Asian            |                 13.12 |                1.89 |
+| Caucasian        |                 13.36 |                2.23 |
+| Hispanic         |                 11.33 |                2.07 |
+| Other            |                 11.04 |                1.88 |
+
+### Work-Life Balance
+| Race             |   Mean |   Std |
+|:-----------------|------------------:|-----------------:|
+| African American |          0.78 |         0.67 |
+| Asian            |          0.91 |         0.72 |
+| Caucasian        |          0.90 |         0.75 |
+| Hispanic         |          0.94 |         0.79 |
+| Other            |          0.83 |         0.81  |
+
+### Leadership Support
+| Race             |   Mean |   Std |
+|:-----------------|--------------------------------:|-------------------------------:|
+| African American |                         3.78 |                       0.88 |
+| Asian            |                         4.20 |                       0.69 |
+| Caucasian        |                         4.22 |                       0.81 |
+| Hispanic         |                         3.56  |                       0.88 |
+| Other            |                         3.46 |                       0.85 |
+
+### Manager Support
+
+| Race             |   Mean |   Std |
+|:-----------------|-----------------------------:|----------------------------:|
+| African American |                      3.52 |                    0.79  |
+| Asian            |                      4.12 |                    0.80 |
+| Caucasian        |                      4.21 |                    0.89 |
+| Hispanic         |                      3.64 |                    0.78 |
+| Other            |                      3.58  |                    0.69 |
+
 ## Level 
 ### % Positivity
 | Level               | Q1  | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 | Q13 | Q14 | Q15 | Q16 | Q17 | Q18 | Q19 | Q20 |
@@ -447,6 +508,41 @@
 | Mid-Level     |126|7.50|1.75|
 | Senior        |59|7.23|1.91|
 | Executive     |31|7.96|1.58|
+
+### Happiness
+| Level       |   Mean |   Std |
+|:------------|------------------------:|-----------------------:|
+| Entry Level |                   12.79 |                   2.2  |
+| Executive   |                   13.32 |                   2.69 |
+| Junior      |                   12.74 |                   2.26 |
+| Mid-Level   |                   12.86 |                   2.37 |
+| Senior      |                   13.12 |                   2.51 |
+### Work-Life Balance
+| Level       |   Mean |   Std |
+|:------------|------------------:|-----------------:|
+| Entry Level |              0.9  |             0.77 |
+| Executive   |              0.71 |             0.59 |
+| Junior      |              0.89 |             0.73 |
+| Mid-Level   |              0.92 |             0.73 |
+| Senior      |              1.05 |             0.86 |
+
+### Leadership Support
+| Level       |   Mean |   Std |
+|:------------|--------------------------------:|-------------------------------:|
+| Entry Level |                            4.1  |                           0.82 |
+| Executive   |                            4.29 |                           0.82 |
+| Junior      |                            4.07 |                           0.87 |
+| Mid-Level   |                            4.04 |                           0.87 |
+| Senior      |                            4.05 |                           0.75 |
+
+### Manager Support
+| Level       |   Mean |   Std |
+|:------------|-----------------------------:|----------------------------:|
+| Entry Level |                         4.04 |                        0.86 |
+| Executive   |                         4.26 |                        0.86 |
+| Junior      |                         4.03 |                        0.88 |
+| Mid-Level   |                         4.03 |                        0.97 |
+| Senior      |                         4.17 |                        0.85 |
 
 ## Department
 ### % Positivity
@@ -481,3 +577,66 @@
 | Services                |90|7.10|2.10
 | Support                 |96|7.27|1.87
 | Training                |72|7.44|1.81
+### Happiness
+| Department               |   Mean |   Std |
+|:-------------------------|------------------------:|-----------------------:|
+| Accounting               |                   13.01 |                   2.2  |
+| Business Development     |                   12.8  |                   2.25 |
+| Engineering              |                   13.02 |                   2.25 |
+| Human Resources          |                   12.48 |                   2.46 |
+| Legal                    |                   12.99 |                   2.27 |
+| Marketing                |                   12.93 |                   2.13 |
+| Product Management       |                   12.89 |                   2.25 |
+| Research and Development |                   12.62 |                   2.39 |
+| Sales                    |                   12.83 |                   2.21 |
+| Services                 |                   12.87 |                   2.46 |
+| Support                  |                   12.5  |                   2.34 |
+| Training                 |                   12.86 |                   2.13 |
+
+### Work-Life Balance
+| Department               |   Mean |   Std |
+|:-------------------------|------------------:|-----------------:|
+| Accounting               |              1.03 |             0.87 |
+| Business Development     |              0.91 |             0.74 |
+| Engineering              |              0.93 |             0.71 |
+| Human Resources          |              0.86 |             0.75 |
+| Legal                    |              0.81 |             0.7  |
+| Marketing                |              0.93 |             0.78 |
+| Product Management       |              0.99 |             0.74 |
+| Research and Development |              0.73 |             0.74 |
+| Sales                    |              0.89 |             0.74 |
+| Services                 |              0.99 |             0.81 |
+| Support                  |              0.85 |             0.7  |
+| Training                 |              0.85 |             0.73 |
+
+### Leadership Support
+| Department               |   Mean |   Std |
+|:-------------------------|--------------------------------:|-------------------------------:|
+| Accounting               |                            4.19 |                           0.73 |
+| Business Development     |                            4.07 |                           0.79 |
+| Engineering              |                            4.02 |                           0.86 |
+| Human Resources          |                            4.08 |                           0.89 |
+| Legal                    |                            4.23 |                           0.81 |
+| Marketing                |                            4.06 |                           0.81 |
+| Product Management       |                            4.11 |                           0.92 |
+| Research and Development |                            4.04 |                           0.8  |
+| Sales                    |                            4.09 |                           0.86 |
+| Services                 |                            3.98 |                           0.86 |
+| Support                  |                            4.01 |                           0.92 |
+| Training                 |                            4.17 |                           0.77 |
+
+### Manager Support
+| Department               |   Mean |   Std |
+|:-------------------------|-----------------------------:|----------------------------:|
+| Accounting               |                         4.04 |                        1.02 |
+| Business Development     |                         4.21 |                        0.79 |
+| Engineering              |                         4.16 |                        0.81 |
+| Human Resources          |                         3.97 |                        0.99 |
+| Legal                    |                         4.15 |                        0.83 |
+| Marketing                |                         4.09 |                        0.88 |
+| Product Management       |                         4.09 |                        0.83 |
+| Research and Development |                         3.99 |                        1.01 |
+| Sales                    |                         4.07 |                        0.85 |
+| Services                 |                         3.98 |                        0.85 |
+| Support                  |                         3.96 |                        0.91 |
+| Training                 |                         3.89 |                        0.86 |
