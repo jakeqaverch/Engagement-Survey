@@ -346,6 +346,9 @@
 
 ## Satisfaction
 - Combined metric of all questions measuring employees overal satisfaction.
+- Maximum value of 20
+- A mean of 12.81 which we will examine by groups later.
+- A 25th percentile of 11 is negative and should be examined further.
   
 | Metric | Value  |
 |--------|--------|
@@ -358,7 +361,10 @@
 | Max    | 19     |
 
 ## Work Life Balance
-- Combined metric of the questions dealing with work life balance
+- Combined metric of the questions dealing with work life balance.
+- Maximum value of 3.
+- The mean and varience is low which should be examined further.
+- Those with low scores should be examined further
   
 | Metric | Value  |
 |--------|--------|
@@ -372,6 +378,8 @@
 
 ## Leadership Support
 - Combined metric of the questions dealing with support of senior leadership.
+- Maxiumum value of 5
+- Relatively high mean with lower varience which means people generally support the leadership in the organization.
 
 | Metric | Value  |
 |--------|--------|
@@ -386,6 +394,9 @@
 ## Manager Support
 
 - Combined metric of the questions dealing with support of individual managers.
+- Maximum value of 5
+- Relatively high mean with lower varience which means people generally have positive experiences with their direct managers.
+- Those with low answers should be examined further. If they share similar managers then this should be examined further.
 
 | Metric | Value  |
 |--------|--------|
@@ -404,17 +415,25 @@
 |--------|-----|----|----|----|----|----|----|----|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | Male   |70.39|80.19|70.78|94.89|86.47|100|86.07|73.72|94.28|65.10|87.25|73.52| 50.00  |66.66|38.03|94.31|24.90|31.76|20.78|49.60|
 | Female |48.77|64.28|50.40|94.31|74.48|100|74.08|54.69|94.50|92.74|52.24|48.57|  46.93 |65.10|32.04|94.89|35.10|35.10|23.67|18.77|
+
+- There are signifcant differnece on many questions between male and female employees where females tend to score lower.
+- These should be examined further.
+
 ### "On a Scale of 1-10 how likely is it that you would recommend DataSkillUp as a place to work?"
 | Gender | Count | Mean | Std |
 |--------|-------|------|-----|
 | Male   |510|7.40|2.02|
 | Female |490|7.01|1.83|
 
-### Happiness
+- These scores are similar but men tend to score higher but with a higher varience
+
+### Satisfaction
 | Gender | Count | Mean | Std |
 |--------|-------|------|-----|
 | Male   |510|13.86|2.02|
 | Female |490|11.73|1.99|
+
+- Men have a higher overall satisfaction score but with slightly higher varience
 
 ### Work-Life Balance
 | Gender | Count | Mean | Std |
@@ -422,17 +441,23 @@
 | Male   |510|1.02|.76|
 | Female |490|.77|.71|
 
+- Men have a higher work life balance score with similar vairence
+
 ### Leadership Support
 | Gender | Count | Mean | Std |
 |--------|-------|------|-----|
 | Male   |510|4.31|.78|
 | Female |490|3.84|.82|
 
+- Men support the leadership team slightly more with similar varience
+
 ### Manager Support
 | Gender | Count | Mean | Std |
 |--------|-------|------|-----|
 | Male   |510|4.47|.65|
 | Female |490|3.60|.87|
+
+- Men have much more support from their manager with lower varience which should be examined further.
 
 ## Race
 ### % Positivity
@@ -444,6 +469,9 @@
 | Hispanic           |58.33|43.75|63.54|96.87|52.08|100|59.37|16.66|93.75|83.33|72.91|13.54|53.12|67.70|38.54|94.7| 30.20|35.41|20.83|38.54|
 | Other              |55.81|51.16|58.13|95.34|41.86|100|53.48|13.95|97.67|74.41|62.79|23.25|55.81|62.7|41.86|97.67|34.88|25.58|18.60|39.53|
 
+- There is significant differences between employees based on race for many questions. These should be examined further.
+- We will examine this further with each metric
+
 ### "On a Scale of 1-10 how likely is it that you would recommend DataSkillUp as a place to work?"
 | Race               | Count | Mean | Std |
 |--------------------|-------|------|-----|
@@ -453,7 +481,9 @@
 | Hispanic           |96|6.30|2.73|
 | Other              |43|6.79|2.73|
 
-### Hapiness
+- Caucasian employees scored higher on this hispanic and Asian employees scores the lowest.
+
+### Satisfaction
 | Race             |   Mean |   Std |
 |:-----------------|------------------------:|-----------------------:|
 | African American |                 11.21 |                1.89 |
@@ -461,6 +491,8 @@
 | Caucasian        |                 13.36 |                2.23 |
 | Hispanic         |                 11.33 |                2.07 |
 | Other            |                 11.04 |                1.88 |
+
+- African American, Hispanic, and Other employees scored lower on overall satisfaction.
 
 ### Work-Life Balance
 | Race             |   Mean |   Std |
@@ -471,6 +503,8 @@
 | Hispanic         |          0.94 |         0.79 |
 | Other            |          0.83 |         0.81  |
 
+- African American employees scores lower than other emmployees in terms of work life balance with lower varience. This should be examined further.
+
 ### Leadership Support
 | Race             |   Mean |   Std |
 |:-----------------|--------------------------------:|-------------------------------:|
@@ -479,6 +513,8 @@
 | Caucasian        |                         4.22 |                       0.81 |
 | Hispanic         |                         3.56  |                       0.88 |
 | Other            |                         3.46 |                       0.85 |
+
+- Hispanic, Other, and African American employees support the senior leadership the least.
 
 ### Manager Support
 
@@ -490,6 +526,8 @@
 | Hispanic         |                      3.64 |                    0.78 |
 | Other            |                      3.58  |                    0.69 |
 
+- African American, Hispanic, and Other employees scored lower on manager support which should be examined further.
+
 ## Level 
 ### % Positivity
 | Level               | Q1  | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 | Q13 | Q14 | Q15 | Q16 | Q17 | Q18 | Q19 | Q20 |
@@ -500,6 +538,9 @@
 | Senior        |61.01|72.88|52.54|93.22|86.44|100|83.05|64.40|96.61|77.96|76.27|64.40|37.28|77.96|38.98|98.30|25.42|40.67|23.72|40.67|
 | Executive     |64.51|83.87|54.83|96.77|93.54|100|87.09|74.19|100.0|83.87|77.41|64.51|41.93|80.65|32.25|100.0|25.80|69.16|19.35|29.03|
 
+- There is significant differences between employees based on level for many questions. These should be examined further.
+- We will examine this further with each metric
+  
 ### "On a Scale of 1-10 how likely is it that you would recommend DataSkillUp as a place to work?"
 | Level               | Count | Mean | Std |
 |--------------------|-------|------|-----|
@@ -509,40 +550,49 @@
 | Senior        |59|7.23|1.91|
 | Executive     |31|7.96|1.58|
 
-### Happiness
+- Entry level and junior employees recommend the organization the least. Surprisingly Senior employees scored lower on this. This should be examined further.
+
+
+### Satisfaction
 | Level       |   Mean |   Std |
 |:------------|------------------------:|-----------------------:|
 | Entry Level |                   12.79 |                   2.2  |
-| Executive   |                   13.32 |                   2.69 |
 | Junior      |                   12.74 |                   2.26 |
 | Mid-Level   |                   12.86 |                   2.37 |
 | Senior      |                   13.12 |                   2.51 |
+| Executive   |                   13.32 |                   2.69 |
+- These scores are generally consistant.
+
 ### Work-Life Balance
 | Level       |   Mean |   Std |
 |:------------|------------------:|-----------------:|
 | Entry Level |              0.9  |             0.77 |
-| Executive   |              0.71 |             0.59 |
 | Junior      |              0.89 |             0.73 |
 | Mid-Level   |              0.92 |             0.73 |
 | Senior      |              1.05 |             0.86 |
+| Executive   |              0.71 |             0.59 |
+- Executive employees scored the lowest on work-life balance which is unsurprising
+- Enty level and junior employees also scored low
 
 ### Leadership Support
 | Level       |   Mean |   Std |
 |:------------|--------------------------------:|-------------------------------:|
 | Entry Level |                            4.1  |                           0.82 |
-| Executive   |                            4.29 |                           0.82 |
 | Junior      |                            4.07 |                           0.87 |
 | Mid-Level   |                            4.04 |                           0.87 |
 | Senior      |                            4.05 |                           0.75 |
+| Executive   |                            4.29 |                           0.82 |
+- Senior Leadership support is consistant except for the Executive leadership team which is unsurprising
 
 ### Manager Support
 | Level       |   Mean |   Std |
 |:------------|-----------------------------:|----------------------------:|
 | Entry Level |                         4.04 |                        0.86 |
-| Executive   |                         4.26 |                        0.86 |
 | Junior      |                         4.03 |                        0.88 |
 | Mid-Level   |                         4.03 |                        0.97 |
 | Senior      |                         4.17 |                        0.85 |
+| Executive   |                         4.26 |                        0.86 |
+- Manager support is consistant except for the Executive leadership team which is unsurprising
 
 ## Department
 ### % Positivity
@@ -561,6 +611,8 @@
 | Services                |62.22|64.44|60.00|95.55|77.77|100|81.11|63.33|96.66|80.00|71.11|52.22|58.88|67.77|36.66|94.44|25.55|41.11|28.88|28.88
 | Support                 |57.29|64.58|61.45|94.79|80.20|100|76.04|68.75|90.62|72.91|73.95|54.16|50.00|63.54|34.37|94.79|27.08|34.37|20.83|30.20
 | Training                |55.55|73.61|66.66|95.83|80.55|100|88.88|61.11|94.44|75.00|65.27|55.55|52.77|70.83|36.11|93.05|36.11|29.16|22.22|33.33
+- There is significant differences between employees based on Department for many questions. These should be examined further.
+
 
 ### "On a Scale of 1-10 how likely is it that you would recommend DataSkillUp as a place to work?"
 | Level               | Count | Mean | Std |
@@ -577,7 +629,10 @@
 | Services                |90|7.10|2.10
 | Support                 |96|7.27|1.87
 | Training                |72|7.44|1.81
-### Happiness
+- The Business Development, Engineering, and Product Managment teams all scored the lowest.
+- The Accounting team highly recommends the org.
+
+### Satisfaction
 | Department               |   Mean |   Std |
 |:-------------------------|------------------------:|-----------------------:|
 | Accounting               |                   13.01 |                   2.2  |
@@ -592,6 +647,9 @@
 | Services                 |                   12.87 |                   2.46 |
 | Support                  |                   12.5  |                   2.34 |
 | Training                 |                   12.86 |                   2.13 |
+- Support, R+D, HR, and BD scored lower
+- Accounting, Engineering, Legal scored highest
+- There was high varience in Services, R+D, and HR
 
 ### Work-Life Balance
 | Department               |   Mean |   Std |
@@ -608,6 +666,8 @@
 | Services                 |              0.99 |             0.81 |
 | Support                  |              0.85 |             0.7  |
 | Training                 |              0.85 |             0.73 |
+- Legal, R+D, Support, Training, HR scored the lowest.
+- Accounting, Services, Marketing, and Engineering scored the highest.
 
 ### Leadership Support
 | Department               |   Mean |   Std |
@@ -624,6 +684,9 @@
 | Services                 |                            3.98 |                           0.86 |
 | Support                  |                            4.01 |                           0.92 |
 | Training                 |                            4.17 |                           0.77 |
+- Engineering, R+D, Services, Marketing, HR scored low.
+- Training and Accounting scored high.
+- Values were generally consistant across departments.
 
 ### Manager Support
 | Department               |   Mean |   Std |
@@ -640,3 +703,7 @@
 | Services                 |                         3.98 |                        0.85 |
 | Support                  |                         3.96 |                        0.91 |
 | Training                 |                         3.89 |                        0.86 |
+- Training, HR, Services, Support scored lower.
+- Marketing and Product Managment scored high.
+- Values were generally consistant across departments.
+
