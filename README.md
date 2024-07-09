@@ -707,7 +707,7 @@
 - Marketing and Product Managment scored high.
 - Values were generally consistant across departments.
 
-#Examine Female Employee Metrics Further
+# Examine Female Employee Metrics Further
 ## Race
 ### Satisfaction
 | Race             |   Count |   Mean |   Std |
