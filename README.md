@@ -707,3 +707,141 @@
 - Marketing and Product Managment scored high.
 - Values were generally consistant across departments.
 
+#Examine Female Employee Metrics Further
+## Race
+### Satisfaction
+| Race             |   Count |   Mean |   Std |
+|:-----------------|-------------------------:|------------------------:|-----------------------:|
+| African American |                       46 |                   10.63 |                   1.77 |
+| Asian            |                      123 |                   12.62 |                   1.79 |
+| Caucasian        |                      256 |                   11.82 |                   1.93 |
+| Hispanic         |                       45 |                   10.49 |                   1.98 |
+| Other            |                       20 |                   10.55 |                   1.61 |
+
+### Work-Life Balance
+| Race             |   Count |   Mean |   Std |
+|:-----------------|-------------------:|------------------:|-----------------:|
+| African American |                 46 |              0.7  |             0.59 |
+| Asian            |                123 |              0.78 |             0.68 |
+| Caucasian        |                256 |              0.79 |             0.74 |
+| Hispanic         |                 45 |              0.78 |             0.7  |
+| Other            |                 20 |              0.8  |             0.95 |
+
+### Leadership Support
+| Race             |   Count |   Mean |   Std |
+|:-----------------|---------------------------------:|--------------------------------:|-------------------------------:|
+| African American |                               46 |                            3.72 |                           0.86 |
+| Asian            |                              123 |                            4.14 |                           0.67 |
+| Caucasian        |                              256 |                            3.82 |                           0.85 |
+| Hispanic         |                               45 |                            3.42 |                           0.78 |
+| Other            |                               20 |                            3.45 |                           0.76 |
+
+### Manager Support
+| race             |   Count |   Mean |   Std |
+|:-----------------|------------------------------:|-----------------------------:|----------------------------:|
+| African American |                            46 |                         3.2  |                        0.86 |
+| Asian            |                           123 |                         3.85 |                        0.79 |
+| Caucasian        |                           256 |                         3.66 |                        0.9  |
+| Hispanic         |                            45 |                         3.27 |                        0.81 |
+| Other            |                            20 |                         3.25 |                        0.55 |
+
+## Department
+### Satisfaction
+| Department               |   Count |   Mean |   Std |
+|:-------------------------|-------------------------:|------------------------:|-----------------------:|
+| Accounting               |                       35 |                   11.86 |                   2.06 |
+| Business Development     |                       37 |                   11.95 |                   1.88 |
+| Engineering              |                       41 |                   12.02 |                   1.9  |
+| Human Resources          |                       31 |                   10.71 |                   1.75 |
+| Legal                    |                       39 |                   11.79 |                   1.92 |
+| Marketing                |                       44 |                   12.25 |                   2.09 |
+| Product Management       |                       47 |                   11.94 |                   1.87 |
+| Research and Development |                       40 |                   11.55 |                   2.19 |
+| Sales                    |                       41 |                   11.1  |                   1.37 |
+| Services                 |                       44 |                   12.27 |                   2.46 |
+| Support                  |                       51 |                   11.39 |                   2.09 |
+| Training                 |                       40 |                   11.75 |                   1.77 |
+
+### Work-Life Balance
+| Department               |   Count |   Mean |   Std |
+|:-------------------------|-------------------:|------------------:|-----------------:|
+| Accounting               |                 35 |              0.89 |             0.87 |
+| Business Development     |                 37 |              0.7  |             0.66 |
+| Engineering              |                 41 |              0.88 |             0.71 |
+| Human Resources          |                 31 |              0.74 |             0.73 |
+| Legal                    |                 39 |              0.64 |             0.58 |
+| Marketing                |                 44 |              0.73 |             0.79 |
+| Product Management       |                 47 |              0.96 |             0.66 |
+| Research and Development |                 40 |              0.62 |             0.74 |
+| Sales                    |                 41 |              0.66 |             0.57 |
+| Services                 |                 44 |              1    |             0.78 |
+| Support                  |                 51 |              0.75 |             0.74 |
+| Training                 |                 40 |              0.7  |             0.69 |
+
+### Leadership Support
+| Department               |   Count |   Mean |   Std |
+|:-------------------------|---------------------------------:|--------------------------------:|-------------------------------:|
+| Accounting               |                               35 |                            3.91 |                           0.78 |
+| Business Development     |                               37 |                            3.78 |                           0.75 |
+| Engineering              |                               41 |                            3.8  |                           0.87 |
+| Human Resources          |                               31 |                            3.74 |                           0.86 |
+| Legal                    |                               39 |                            3.95 |                           0.83 |
+| Marketing                |                               44 |                            3.93 |                           0.93 |
+| Product Management       |                               47 |                            3.94 |                           0.84 |
+| Research and Development |                               40 |                            3.88 |                           0.76 |
+| Sales                    |                               41 |                            3.71 |                           0.87 |
+| Services                 |                               44 |                            3.82 |                           0.76 |
+| Support                  |                               51 |                            3.75 |                           0.93 |
+| Training                 |                               40 |                            3.88 |                           0.72 |
+
+### Manager Support
+| Department               |   Count |   Mean |   Std |
+|:-------------------------|------------------------------:|-----------------------------:|----------------------------:|
+| Accounting               |                            35 |                         3.49 |                        1.07 |
+| Business Development     |                            37 |                         3.92 |                        0.72 |
+| Engineering              |                            41 |                         3.73 |                        0.78 |
+| Human Resources          |                            31 |                         3.16 |                        0.86 |
+| Legal                    |                            39 |                         3.69 |                        0.86 |
+| Marketing                |                            44 |                         3.8  |                        0.88 |
+| Product Management       |                            47 |                         3.66 |                        0.84 |
+| Research and Development |                            40 |                         3.58 |                        1.01 |
+| Sales                    |                            41 |                         3.51 |                        0.71 |
+| Services                 |                            44 |                         3.66 |                        0.83 |
+| Support                  |                            51 |                         3.53 |                        0.92 |
+| Training                 |                            40 |                         3.48 |                        0.85 |
+## Level
+### Satisfaction 
+| Level       |   Count |   Mean |   Std |
+|:------------|-------------------------:|------------------------:|-----------------------:|
+| Entry Level |                      211 |                   11.82 |                   1.94 |
+| Executive   |                       11 |                   11.27 |                   3    |
+| Junior      |                      177 |                   11.69 |                   1.91 |
+| Mid-Level   |                       67 |                   11.75 |                   2.1  |
+| Senior      |                       24 |                   11.54 |                   2.41 |
+
+### Work-Life Balance
+| Level       |   Count |   Mean |   Std |
+|:------------|-------------------:|------------------:|-----------------:|
+| Entry Level |                211 |              0.74 |             0.71 |
+| Executive   |                 11 |              0.64 |             0.5  |
+| Junior      |                177 |              0.84 |             0.74 |
+| Mid-Level   |                 67 |              0.7  |             0.7  |
+| Senior      |                 24 |              0.88 |             0.74 |
+
+### Leadership Support
+| Level       |   Count |   Mean |   Std |
+|:------------|---------------------------------:|--------------------------------:|-------------------------------:|
+| Entry Level |                              211 |                            3.88 |                           0.78 |
+| Executive   |                               11 |                            3.73 |                           0.9  |
+| Junior      |                              177 |                            3.85 |                           0.85 |
+| Mid-Level   |                               67 |                            3.72 |                           0.87 |
+| Senior      |                               24 |                            3.83 |                           0.87 |
+
+### Manager Support
+| Level       |   Count |   Mean |   Std |
+|:------------|------------------------------:|-----------------------------:|----------------------------:|
+| Entry Level |                           211 |                         3.68 |                        0.86 |
+| Executive   |                            11 |                         3.45 |                        0.82 |
+| Junior      |                           177 |                         3.53 |                        0.83 |
+| Mid-Level   |                            67 |                         3.6  |                        1.03 |
+| Senior      |                            24 |                         3.67 |                        0.92 |
