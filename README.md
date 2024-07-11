@@ -717,6 +717,8 @@
 | Caucasian        |                      256 |                   11.82 |                   1.93 |
 | Hispanic         |                       45 |                   10.49 |                   1.98 |
 | Other            |                       20 |                   10.55 |                   1.61 |
+- Women of color tended to have less overall satisfaction
+- Asian women stood out as positive outliers
 
 ### Work-Life Balance
 | Race             |   Count |   Mean |   Std |
@@ -726,6 +728,8 @@
 | Caucasian        |                256 |              0.79 |             0.74 |
 | Hispanic         |                 45 |              0.78 |             0.7  |
 | Other            |                 20 |              0.8  |             0.95 |
+- Work life balance was fairly balanced across race
+- The varience of Other employees was relativly high
 
 ### Leadership Support
 | Race             |   Count |   Mean |   Std |
@@ -734,7 +738,9 @@
 | Asian            |                              123 |                            4.14 |                           0.67 |
 | Caucasian        |                              256 |                            3.82 |                           0.85 |
 | Hispanic         |                               45 |                            3.42 |                           0.78 |
-| Other            |                               20 |                            3.45 |                           0.76 |
+| Other            |                               20 |                            3.45 |      0.76 |
+- Leadership support is fairly balanced
+- Asian women stand out as a positive outlier
 
 ### Manager Support
 | race             |   Count |   Mean |   Std |
@@ -744,6 +750,8 @@
 | Caucasian        |                           256 |                         3.66 |                        0.9  |
 | Hispanic         |                            45 |                         3.27 |                        0.81 |
 | Other            |                            20 |                         3.25 |                        0.55 |
+- Women of color tended to have less overall support from their managers
+- Asian women stand out as a positive outlier
 
 ## Department
 ### Satisfaction
@@ -761,6 +769,9 @@
 | Services                 |                       44 |                   12.27 |                   2.46 |
 | Support                  |                       51 |                   11.39 |                   2.09 |
 | Training                 |                       40 |                   11.75 |                   1.77 |
+- Women in HR, Sales, and Support stood out as lower overall satisfaction
+- Varience among Services is higher
+- Marketing and Services stood out as having high satisfaction
 
 ### Work-Life Balance
 | Department               |   Count |   Mean |   Std |
@@ -777,6 +788,9 @@
 | Services                 |                 44 |              1    |             0.78 |
 | Support                  |                 51 |              0.75 |             0.74 |
 | Training                 |                 40 |              0.7  |             0.69 |
+- Product Managment, Accounting and Services stood out while still relatively low
+- Given how much of an outlier Accounting is when not controlling for Gender, this is concerning
+- Research and Development, Legal, and Sales stand out on the low end of work-life balance
 
 ### Leadership Support
 | Department               |   Count |   Mean |   Std |
@@ -793,6 +807,8 @@
 | Services                 |                               44 |                            3.82 |                           0.76 |
 | Support                  |                               51 |                            3.75 |                           0.93 |
 | Training                 |                               40 |                            3.88 |                           0.72 |
+- Leadership support was fairly standard across departments
+- Accoutning is a slight positive outlier
 
 ### Manager Support
 | Department               |   Count |   Mean |   Std |
@@ -809,39 +825,50 @@
 | Services                 |                            44 |                         3.66 |                        0.83 |
 | Support                  |                            51 |                         3.53 |                        0.92 |
 | Training                 |                            40 |                         3.48 |                        0.85 |
+- Manager suport was fairly standard across departments
+- BD stands out as a positive outlier
+- The varience among the Accounting team is high which should be examined
+
 ## Level
 ### Satisfaction 
 | Level       |   Count |   Mean |   Std |
 |:------------|-------------------------:|------------------------:|-----------------------:|
 | Entry Level |                      211 |                   11.82 |                   1.94 |
-| Executive   |                       11 |                   11.27 |                   3    |
 | Junior      |                      177 |                   11.69 |                   1.91 |
 | Mid-Level   |                       67 |                   11.75 |                   2.1  |
 | Senior      |                       24 |                   11.54 |                   2.41 |
+| Executive   |                       11 |                   11.27 |                   3    |
+- Satisfaction tends to decline as Women increase in level in the organization that should be examined further
+- Varience among Executives is high indicating outliers which should be examined
 
 ### Work-Life Balance
 | Level       |   Count |   Mean |   Std |
 |:------------|-------------------:|------------------:|-----------------:|
 | Entry Level |                211 |              0.74 |             0.71 |
-| Executive   |                 11 |              0.64 |             0.5  |
 | Junior      |                177 |              0.84 |             0.74 |
 | Mid-Level   |                 67 |              0.7  |             0.7  |
 | Senior      |                 24 |              0.88 |             0.74 |
+| Executive   |                 11 |              0.64 |             0.5  |
+- Work life balance is balanced except for the Executive level which stands out as a negative outlier this is not surprising
 
 ### Leadership Support
 | Level       |   Count |   Mean |   Std |
 |:------------|---------------------------------:|--------------------------------:|-------------------------------:|
 | Entry Level |                              211 |                            3.88 |                           0.78 |
-| Executive   |                               11 |                            3.73 |                           0.9  |
 | Junior      |                              177 |                            3.85 |                           0.85 |
 | Mid-Level   |                               67 |                            3.72 |                           0.87 |
 | Senior      |                               24 |                            3.83 |                           0.87 |
+| Executive   |                               11 |                            3.73 |                           0.9  |
+- Leadership support is balanced across level
+- The varience tends to increase with level
 
 ### Manager Support
 | Level       |   Count |   Mean |   Std |
 |:------------|------------------------------:|-----------------------------:|----------------------------:|
 | Entry Level |                           211 |                         3.68 |                        0.86 |
-| Executive   |                            11 |                         3.45 |                        0.82 |
 | Junior      |                           177 |                         3.53 |                        0.83 |
 | Mid-Level   |                            67 |                         3.6  |                        1.03 |
 | Senior      |                            24 |                         3.67 |                        0.92 |
+| Executive   |                            11 |                         3.45 |                        0.82 |
+- Manager support is fairly balanced across level
+- There is high varience at the mid-level incicating outliers which should be examined further
