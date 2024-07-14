@@ -417,6 +417,40 @@
 | 75%    | 5     |
 | Max    | 5     |
 
+## Inclusion
+
+- Combined metric of the questions dealing with inclusion.
+- Maximum value of 2
+- Mean is relatively high but higher varience we will explore this by groups later
+
+|   Metric    |   Value |
+|:------|------------:|
+| count | 1000        |
+| mean  |    1.368    |
+| std   |    0.726019 |
+| min   |    0        |
+| 25%   |    1        |
+| 50%   |    2        |
+| 75%   |    2        |
+| max   |    2        |
+
+## Role Alignment
+
+- Combined metric of the questions dealing with role alignment.
+- Maximum value of 3
+- Mean is relatively high but higher varience we will explore this by groups later
+
+|  Metric     |   Value |
+|:------|----------------:|
+| count |     1000        |
+| mean  |        1.309    |
+| std   |        0.784943 |
+| min   |        0        |
+| 25%   |        1        |
+| 50%   |        1        |
+| 75%   |        2        |
+| max   |        3        |
+
 # Question + Metric Analysis by Groups
 ## Gender 
 ### % Positivity
