@@ -50,8 +50,8 @@
 
 # Individual Question Analysis
 
-## On a scale of 0 to 10, how likely is it that you would recommend DataSkillUp as a place to work?      
-
+## On a scale of 0 to 10, how likely is it that you would recommend DataSkillUp as a place to work? (eNPS)     
+### Base Counts
 | Number | Count | Proportion |
 |--------|-------|------------|
 | 1      | 14    | 0.014      |
@@ -66,6 +66,15 @@
 | 10     | 112   | 0.112      |
 | Mean ||7.213|
 | Std ||1.944
+
+### Converting to eNPS measures
+| eNPS category   |   count |
+|:----------------|--------:|
+| Passive         |     413 |
+| Detractor       |     313 |
+| Promoter        |     274 |
+
+
 
 
 - The sentiment on this question is relatively positive with 83.3% of respondents answering with a 6 or greater and a mean of 7.213.
@@ -419,13 +428,18 @@
 - There are signifcant differnece on many questions between male and female employees where females tend to score lower.
 - These should be examined further.
 
-### "On a Scale of 1-10 how likely is it that you would recommend DataSkillUp as a place to work?"
-| Gender | Count | Mean | Std |
-|--------|-------|------|-----|
-| Male   |510|7.40|2.02|
-| Female |490|7.01|1.83|
+### eNPS
+| Gender | Mean | Std |
+|--------|------|-----|
+| Male   7.40|2.02|
+| Female 7.01|1.83|
+| Gender   |      eNPS score |
+|:---------|-----------:|
+| Female   | -0.15102   |
+| Male     |  0.0686275 |
 
-- These scores are similar but men tend to score higher but with a higher varience
+- Men have a much higher eNPS score
+  
 
 ### Satisfaction
 | Gender | Count | Mean | Std |
@@ -472,16 +486,24 @@
 - There is significant differences between employees based on race for many questions. These should be examined further.
 - We will examine this further with each metric
 
-### "On a Scale of 1-10 how likely is it that you would recommend DataSkillUp as a place to work?"
-| Race               | Count | Mean | Std |
-|--------------------|-------|------|-----|
-| African-American   |90|6.90|2.63|
-| Asian              |228|6.49|1.81|
-| Caucasian          |543|7.76|1.36|
-| Hispanic           |96|6.30|2.73|
-| Other              |43|6.79|2.73|
+### eNPS
+| Race               | Mean | Std |
+|--------------------|------|-----|
+| African-American   |6.90|2.63|
+| Asian              |6.49|1.81|
+| Caucasian          |7.76|1.36|
+| Hispanic           |6.30|2.73|
+| Other              |6.79|2.73|
 
-- Caucasian employees scored higher on this hispanic and Asian employees scores the lowest.
+| Race             |          eNPS Score |
+|:-----------------|-----------:|
+| African American | -0.1       |
+| Asian            | -0.355263  |
+| Caucasian        |  0.139963  |
+| Hispanic         | -0.229167  |
+| Other            | -0.0697674 |
+
+- Caucasian employees scored higher on this hispanic and Asian employees scores the lowest score.
 
 ### Satisfaction
 | Race             |   Mean |   Std |
@@ -541,14 +563,22 @@
 - There is significant differences between employees based on level for many questions. These should be examined further.
 - We will examine this further with each metric
   
-### "On a Scale of 1-10 how likely is it that you would recommend DataSkillUp as a place to work?"
-| Level               | Count | Mean | Std |
+### eNPS
+| Level               | Mean | Std |
 |--------------------|-------|------|-----|
-| Entry-Level   |424|7.14|1.97|
-| Junior        |360|7.12|1.99|
-| Mid-Level     |126|7.50|1.75|
-| Senior        |59|7.23|1.91|
-| Executive     |31|7.96|1.58|
+| Entry-Level   |7.14|1.97|
+| Junior        |7.12|1.99|
+| Mid-Level     |7.50|1.75|
+| Senior        |7.23|1.91|
+| Executive     |7.96|1.58|
+
+| Level       |          eNPS Score |
+|:------------|-----------:|
+| Entry Level | -0.0660377 |
+| Junior      | -0.0666667 |
+| Mid-Level   |  0.047619  |
+| Senior      |  0.0169492 |
+| Executive   |  0.193548  |
 
 - Entry level and junior employees recommend the organization the least. Surprisingly Senior employees scored lower on this. This should be examined further.
 
@@ -614,23 +644,38 @@
 - There is significant differences between employees based on Department for many questions. These should be examined further.
 
 
-### "On a Scale of 1-10 how likely is it that you would recommend DataSkillUp as a place to work?"
-| Level               | Count | Mean | Std |
+### eNPS
+| Level               | Mean | Std |
 |--------------------|-------|------|-----|
-| Accounting              |75|7.66|1.78
-| Business Development    |81|6.93|2.16
-| Engineering             |88|7.05|1.92
-| Human Resources         |73|7.23|2.15
-| Legal                   |84|7.16|1.78
-| Marketing               |82|7.13|1.98
-| Product Management      |94|7.03|1.82
-| Research and Development|71|7.39|1.81
-| Sales                   |94|7.18|2.03
-| Services                |90|7.10|2.10
-| Support                 |96|7.27|1.87
-| Training                |72|7.44|1.81
-- The Business Development, Engineering, and Product Managment teams all scored the lowest.
-- The Accounting team highly recommends the org.
+| Accounting              |7.66|1.78
+| Business Development    |6.93|2.16
+| Engineering             |7.05|1.92
+| Human Resources         |7.23|2.15
+| Legal                   |7.16|1.78
+| Marketing               |7.13|1.98
+| Product Management      |7.03|1.82
+| Research and Development|7.39|1.81
+| Sales                   |7.18|2.03
+| Services                |7.10|2.10
+| Support                 |7.27|1.87
+| Training                |7.44|1.81
+
+| Department               |          eNPS Score |
+|:-------------------------|-----------:|
+| Accounting               |  0.16      |
+| Business Development     | -0.0740741 |
+| Engineering              | -0.0909091 |
+| Human Resources          |  0.0136986 |
+| Legal                    | -0.0833333 |
+| Marketing                | -0.097561  |
+| Product Management       | -0.106383  |
+| Research and Development |  0.028169  |
+| Sales                    | -0.0744681 |
+| Services                 | -0.0555556 |
+| Support                  | -0.03125   |
+| Training                 |  0         |
+- The Business Development, Engineering,Legal, Marketing, Sales, and Product Managment teams all scored the lowest.
+- The Accounting and Training teams highly recommends the org.
 
 ### Satisfaction
 | Department               |   Mean |   Std |
