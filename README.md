@@ -473,55 +473,20 @@
 | Male     |  0.0686275 |
 
 - Men have a much higher eNPS score
-  
 
-### Satisfaction
-| Gender | Count | Mean | Std |
-|--------|-------|------|-----|
-| Male   |510|13.86|2.02|
-| Female |490|11.73|1.99|
+### Metrics
+
+| Gender   |   Satisfaction Mean |   Satisfaction Std |   Wlb Mean |   Wlb Std |   Leadership Support Mean |   Leadership Support Std |   Manager Support Mean |   Nanager Support Std |   Inclusion Mean |   Inclusion Std |   Role Alignment Mean |  Role Alignment Std |
+|:---------|--------------------:|-------------------:|-----------:|----------:|-------------------------:|------------------------:|----------------------:|---------------------:|-----------------:|----------------:|---------------------:|--------------------:|
+| Female   |               11.73 |               2    |       0.78 |      0.72 |                     3.84 |                    0.83 |                  3.61 |                 0.87 |             1.19 |            0.71 |                 1.32 |                0.79 |
+| Male     |               13.86 |               2.03 |       1.02 |      0.76 |                     4.32 |                    0.79 |                  4.48 |                 0.65 |             1.54 |            0.7  |                 1.3  |                0.78 |
 
 - Men have a higher overall satisfaction score but with slightly higher varience
-
-### Work-Life Balance
-| Gender | Count | Mean | Std |
-|--------|-------|------|-----|
-| Male   |510|1.02|.76|
-| Female |490|.77|.71|
-
 - Men have a higher work life balance score with similar vairence
-
-### Leadership Support
-| Gender | Count | Mean | Std |
-|--------|-------|------|-----|
-| Male   |510|4.31|.78|
-| Female |490|3.84|.82|
-
 - Men support the leadership team slightly more with similar varience
-
-### Manager Support
-| Gender | Count | Mean | Std |
-|--------|-------|------|-----|
-| Male   |510|4.47|.65|
-| Female |490|3.60|.87|
-
 - Men have much more support from their manager with lower varience which should be examined further.
-
-### Inclusion
-| Gender   |   Mean |   Std |
-|:---------|------------------------:|-----------------------:|
-| Female   |                    1.19 |                   0.71 |
-| Male     |                    1.54 |                   0.7  |
-
 - Women feel less included than men
-
-### Role Alignment
-| Gender   |   Mean |   Std |
-|:---------|----------------------------:|---------------------------:|
-| Female   |                        1.32 |                       0.79 |
-| Male     |                        1.3  |                       0.78 |
-
-- Values are similar
+- Values are similar for role alignment
 
 ## Race
 ### % Positivity
@@ -555,71 +520,21 @@
 
 - Caucasian employees scored higher on this hispanic and Asian employees scores the lowest score.
 
-### Satisfaction
-| Race             |   Mean |   Std |
-|:-----------------|------------------------:|-----------------------:|
-| African American |                 11.21 |                1.89 |
-| Asian            |                 13.12 |                1.89 |
-| Caucasian        |                 13.36 |                2.23 |
-| Hispanic         |                 11.33 |                2.07 |
-| Other            |                 11.04 |                1.88 |
+### Metrics
+| Race             |   Satisfaction Mean |   Satisfaction Std |   Wlb Mean |   Wlb Std |   Leadership Support Mean |   Leadership Support Std |   Manager Support Mean |   Nanager Support Std |   Inclusion Mean |   Inclusion Std |   Role Alignment Mean |  Role Alignment Std |
+|:-----------------|--------------------:|-------------------:|-----------:|----------:|-------------------------:|------------------------:|----------------------:|---------------------:|-----------------:|----------------:|---------------------:|--------------------:|
+| African American |               11.21 |               1.9  |       0.79 |      0.68 |                     3.79 |                    0.88 |                  3.52 |                 0.8  |             0.69 |            0.61 |                 1.34 |                0.77 |
+| Asian            |               13.12 |               1.89 |       0.92 |      0.73 |                     4.21 |                    0.69 |                  4.13 |                 0.8  |             1.54 |            0.61 |                 1.3  |                0.77 |
+| Caucasian        |               13.36 |               2.24 |       0.91 |      0.76 |                     4.22 |                    0.81 |                  4.22 |                 0.89 |             1.6  |            0.61 |                 1.29 |                0.8  |
+| Hispanic         |               11.33 |               2.08 |       0.95 |      0.8  |                     3.56 |                    0.88 |                  3.65 |                 0.78 |             0.6  |            0.59 |                 1.36 |                0.76 |
+| Other            |               11.05 |               1.89 |       0.84 |      0.81 |                     3.47 |                    0.85 |                  3.58 |                 0.7  |             0.65 |            0.61 |                 1.4  |                0.82 |
 
 - African American, Hispanic, and Other employees scored lower on overall satisfaction.
-
-### Work-Life Balance
-| Race             |   Mean |   Std |
-|:-----------------|------------------:|-----------------:|
-| African American |          0.78 |         0.67 |
-| Asian            |          0.91 |         0.72 |
-| Caucasian        |          0.90 |         0.75 |
-| Hispanic         |          0.94 |         0.79 |
-| Other            |          0.83 |         0.81  |
-
 - African American employees scores lower than other emmployees in terms of work life balance with lower varience. This should be examined further.
-
-### Leadership Support
-| Race             |   Mean |   Std |
-|:-----------------|--------------------------------:|-------------------------------:|
-| African American |                         3.78 |                       0.88 |
-| Asian            |                         4.20 |                       0.69 |
-| Caucasian        |                         4.22 |                       0.81 |
-| Hispanic         |                         3.56  |                       0.88 |
-| Other            |                         3.46 |                       0.85 |
-
 - Hispanic, Other, and African American employees support the senior leadership the least.
-
-### Manager Support
-
-| Race             |   Mean |   Std |
-|:-----------------|-----------------------------:|----------------------------:|
-| African American |                      3.52 |                    0.79  |
-| Asian            |                      4.12 |                    0.80 |
-| Caucasian        |                      4.21 |                    0.89 |
-| Hispanic         |                      3.64 |                    0.78 |
-| Other            |                      3.58  |                    0.69 |
-
 - African American, Hispanic, and Other employees scored lower on manager support which should be examined further.
-
-### Inclusion
-| Race             |   Mean |   Std |
-|:-----------------|------------------------:|-----------------------:|
-| African American |                    0.69 |                   0.61 |
-| Asian            |                    1.54 |                   0.61 |
-| Caucasian        |                    1.6  |                   0.61 |
-| Hispanic         |                    0.6  |                   0.59 |
-| Other            |                    0.65 |                   0.61 |
 - African American, Hispanic, and other employees feel less included than other groups
-
-### Role Alignment
-| Race             |   Mean |   Std |
-|:-----------------|----------------------------:|---------------------------:|
-| African American |                        1.34 |                       0.77 |
-| Asian            |                        1.3  |                       0.77 |
-| Caucasian        |                        1.29 |                       0.8  |
-| Hispanic         |                        1.36 |                       0.76 |
-| Other            |                        1.4  |                       0.82 |
-
-- Values are similar
+- Values are similar for role alignment
 
 ## Level 
 ### % Positivity
@@ -654,66 +569,20 @@
 - Entry level and junior employees recommend the organization the least. Surprisingly Senior employees scored lower on this. This should be examined further.
 
 
-### Satisfaction
-| Level       |   Mean |   Std |
-|:------------|------------------------:|-----------------------:|
-| Entry Level |                   12.79 |                   2.2  |
-| Junior      |                   12.74 |                   2.26 |
-| Mid-Level   |                   12.86 |                   2.37 |
-| Senior      |                   13.12 |                   2.51 |
-| Executive   |                   13.32 |                   2.69 |
-- These scores are generally consistant.
+### Metrics
+| Level             |   Satisfaction Mean |   Satisfaction Std |   Wlb Mean |   Wlb Std |   Leadership Support Mean |   Leadership Support Std |   Manager Support Mean |   Nanager Support Std |   Inclusion Mean |   Inclusion Std |   Role Alignment Mean |  Role Alignment Std |
+|:------------|--------------------:|-------------------:|-----------:|----------:|-------------------------:|------------------------:|----------------------:|---------------------:|-----------------:|----------------:|---------------------:|--------------------:|
+| Entry Level |               12.79 |               2.2  |       0.9  |      0.77 |                     4.1  |                    0.82 |                  4.04 |                 0.86 |             1.4  |            0.7  |                 1.29 |                0.75 |
+| Junior      |               12.74 |               2.26 |       0.89 |      0.73 |                     4.07 |                    0.87 |                  4.03 |                 0.88 |             1.32 |            0.73 |                 1.28 |                0.82 |
+| Mid-Level   |               12.86 |               2.37 |       0.92 |      0.73 |                     4.04 |                    0.87 |                  4.03 |                 0.97 |             1.35 |            0.75 |                 1.36 |                0.8  |
+| Senior      |               13.12 |               2.51 |       1.05 |      0.86 |                     4.05 |                    0.75 |                  4.17 |                 0.85 |             1.37 |            0.76 |                 1.42 |                0.77 |
+| Executive   |               13.32 |               2.69 |       0.71 |      0.59 |                     4.29 |                    0.82 |                  4.26 |                 0.86 |             1.58 |            0.76 |                 1.39 |                0.8  |
 
-### Work-Life Balance
-| Level       |   Mean |   Std |
-|:------------|------------------:|-----------------:|
-| Entry Level |              0.9  |             0.77 |
-| Junior      |              0.89 |             0.73 |
-| Mid-Level   |              0.92 |             0.73 |
-| Senior      |              1.05 |             0.86 |
-| Executive   |              0.71 |             0.59 |
-- Executive employees scored the lowest on work-life balance which is unsurprising
-- Enty level and junior employees also scored low
-
-### Leadership Support
-| Level       |   Mean |   Std |
-|:------------|--------------------------------:|-------------------------------:|
-| Entry Level |                            4.1  |                           0.82 |
-| Junior      |                            4.07 |                           0.87 |
-| Mid-Level   |                            4.04 |                           0.87 |
-| Senior      |                            4.05 |                           0.75 |
-| Executive   |                            4.29 |                           0.82 |
+- Satisfaction tends to go up with level
+- Executive employees scored the lowest on work-life balance which is unsurprising but entry level and junior employees scored low as well
 - Senior Leadership support is consistant except for the Executive leadership team which is unsurprising
-
-### Manager Support
-| Level       |   Mean |   Std |
-|:------------|-----------------------------:|----------------------------:|
-| Entry Level |                         4.04 |                        0.86 |
-| Junior      |                         4.03 |                        0.88 |
-| Mid-Level   |                         4.03 |                        0.97 |
-| Senior      |                         4.17 |                        0.85 |
-| Executive   |                         4.26 |                        0.86 |
 - Manager support is consistant except for the Executive leadership team which is unsurprising
-
-### Inclusion
-| Level       |   Mean |   Std |
-|:------------|------------------------:|-----------------------:|
-| Entry Level |                    1.4  |                   0.7  |
-| Junior      |                    1.32 |                   0.73 |
-| Mid-Level   |                    1.35 |                   0.75 |
-| Senior      |                    1.37 |                   0.76 |
-| Executive   |                    1.58 |                   0.76 |
-
 - Values are similar but Executives are high end outliers
-### Role Alignment
-| Level       |   Mean |   Std |
-|:------------|----------------------------:|---------------------------:|
-| Entry Level |                        1.29 |                       0.75 |
-| Junior      |                        1.28 |                       0.82 |
-| Mid-Level   |                        1.36 |                       0.8  |
-| Senior      |                        1.42 |                       0.77 |
-| Executive   |                        1.39 |                       0.8  |
-
 - Role alignment for more entry level employees is lower
 
 ## Department
@@ -769,115 +638,35 @@
 - The Business Development, Engineering,Legal, Marketing, Sales, and Product Managment teams all scored the lowest.
 - The Accounting and Training teams highly recommends the org.
 
-### Satisfaction
-| Department               |   Mean |   Std |
-|:-------------------------|------------------------:|-----------------------:|
-| Accounting               |                   13.01 |                   2.2  |
-| Business Development     |                   12.8  |                   2.25 |
-| Engineering              |                   13.02 |                   2.25 |
-| Human Resources          |                   12.48 |                   2.46 |
-| Legal                    |                   12.99 |                   2.27 |
-| Marketing                |                   12.93 |                   2.13 |
-| Product Management       |                   12.89 |                   2.25 |
-| Research and Development |                   12.62 |                   2.39 |
-| Sales                    |                   12.83 |                   2.21 |
-| Services                 |                   12.87 |                   2.46 |
-| Support                  |                   12.5  |                   2.34 |
-| Training                 |                   12.86 |                   2.13 |
-- Support, R+D, HR, and BD scored lower
-- Accounting, Engineering, Legal scored highest
-- There was high varience in Services, R+D, and HR
-
-### Work-Life Balance
-| Department               |   Mean |   Std |
-|:-------------------------|------------------:|-----------------:|
-| Accounting               |              1.03 |             0.87 |
-| Business Development     |              0.91 |             0.74 |
-| Engineering              |              0.93 |             0.71 |
-| Human Resources          |              0.86 |             0.75 |
-| Legal                    |              0.81 |             0.7  |
-| Marketing                |              0.93 |             0.78 |
-| Product Management       |              0.99 |             0.74 |
-| Research and Development |              0.73 |             0.74 |
-| Sales                    |              0.89 |             0.74 |
-| Services                 |              0.99 |             0.81 |
-| Support                  |              0.85 |             0.7  |
-| Training                 |              0.85 |             0.73 |
-- Legal, R+D, Support, Training, HR scored the lowest.
-- Accounting, Services, Marketing, and Engineering scored the highest.
-
-### Leadership Support
-| Department               |   Mean |   Std |
-|:-------------------------|--------------------------------:|-------------------------------:|
-| Accounting               |                            4.19 |                           0.73 |
-| Business Development     |                            4.07 |                           0.79 |
-| Engineering              |                            4.02 |                           0.86 |
-| Human Resources          |                            4.08 |                           0.89 |
-| Legal                    |                            4.23 |                           0.81 |
-| Marketing                |                            4.06 |                           0.81 |
-| Product Management       |                            4.11 |                           0.92 |
-| Research and Development |                            4.04 |                           0.8  |
-| Sales                    |                            4.09 |                           0.86 |
-| Services                 |                            3.98 |                           0.86 |
-| Support                  |                            4.01 |                           0.92 |
-| Training                 |                            4.17 |                           0.77 |
-- Engineering, R+D, Services, Marketing, HR scored low.
-- Training and Accounting scored high.
-- Values were generally consistant across departments.
-
-### Manager Support
-| Department               |   Mean |   Std |
-|:-------------------------|-----------------------------:|----------------------------:|
-| Accounting               |                         4.04 |                        1.02 |
-| Business Development     |                         4.21 |                        0.79 |
-| Engineering              |                         4.16 |                        0.81 |
-| Human Resources          |                         3.97 |                        0.99 |
-| Legal                    |                         4.15 |                        0.83 |
-| Marketing                |                         4.09 |                        0.88 |
-| Product Management       |                         4.09 |                        0.83 |
-| Research and Development |                         3.99 |                        1.01 |
-| Sales                    |                         4.07 |                        0.85 |
-| Services                 |                         3.98 |                        0.85 |
-| Support                  |                         3.96 |                        0.91 |
-| Training                 |                         3.89 |                        0.86 |
-- Training, HR, Services, Support scored lower.
-- Marketing and Product Managment scored high.
-- Values were generally consistant across departments.
-
-### Inclusion
-| Department               |   Mean |   Std |
-|:-------------------------|------------------------:|-----------------------:|
-| Accounting               |                    1.43 |                   0.66 |
-| Business Development     |                    1.3  |                   0.81 |
-| Engineering              |                    1.39 |                   0.72 |
-| Human Resources          |                    1.36 |                   0.69 |
-| Legal                    |                    1.43 |                   0.73 |
-| Marketing                |                    1.44 |                   0.69 |
-| Product Management       |                    1.36 |                   0.72 |
-| Research and Development |                    1.34 |                   0.67 |
-| Sales                    |                    1.43 |                   0.71 |
-| Services                 |                    1.28 |                   0.81 |
-| Support                  |                    1.33 |                   0.72 |
-| Training                 |                    1.35 |                   0.77 |
-
-- Values are similar but the Services team is the lowest
-### Role Alignment
-| Department               |   Mean |   Std |
-|:-------------------------|----------------------------:|---------------------------:|
-| Accounting               |                        1.32 |                       0.76 |
-| Business Development     |                        1.23 |                       0.64 |
-| Engineering              |                        1.4  |                       0.81 |
-| Human Resources          |                        1.18 |                       0.77 |
-| Legal                    |                        1.3  |                       0.88 |
-| Marketing                |                        1.38 |                       0.84 |
-| Product Management       |                        1.32 |                       0.66 |
-| Research and Development |                        1.37 |                       0.85 |
-| Sales                    |                        1.26 |                       0.7  |
-| Services                 |                        1.3  |                       0.85 |
-| Support                  |                        1.25 |                       0.81 |
-| Training                 |                        1.43 |                       0.85 |
-- HR, BD, and Support stand out on the low end
-- Training, Marketing, and R+D stand out on the high end
+### Metrics
+| Department             |   Satisfaction Mean |   Satisfaction Std |   Wlb Mean |   Wlb Std |   Leadership Support Mean |   Leadership Support Std |   Manager Support Mean |   Nanager Support Std |   Inclusion Mean |   Inclusion Std |   Role Alignment Mean |  Role Alignment Std |
+|:-------------------------|--------------------:|-------------------:|-----------:|----------:|-------------------------:|------------------------:|----------------------:|---------------------:|-----------------:|----------------:|---------------------:|--------------------:|
+| Accounting               |               13.01 |               2.2  |       1.03 |      0.87 |                     4.19 |                    0.73 |                  4.04 |                 1.02 |             1.43 |            0.66 |                 1.32 |                0.76 |
+| Business Development     |               12.8  |               2.25 |       0.91 |      0.74 |                     4.07 |                    0.79 |                  4.21 |                 0.79 |             1.3  |            0.81 |                 1.23 |                0.64 |
+| Engineering              |               13.02 |               2.25 |       0.93 |      0.71 |                     4.02 |                    0.86 |                  4.16 |                 0.81 |             1.39 |            0.72 |                 1.4  |                0.81 |
+| Human Resources          |               12.48 |               2.46 |       0.86 |      0.75 |                     4.08 |                    0.89 |                  3.97 |                 0.99 |             1.36 |            0.69 |                 1.18 |                0.77 |
+| Legal                    |               12.99 |               2.27 |       0.81 |      0.7  |                     4.23 |                    0.81 |                  4.15 |                 0.83 |             1.43 |            0.73 |                 1.3  |                0.88 |
+| Marketing                |               12.93 |               2.13 |       0.93 |      0.78 |                     4.06 |                    0.81 |                  4.09 |                 0.88 |             1.44 |            0.69 |                 1.38 |                0.84 |
+| Product Management       |               12.89 |               2.25 |       0.99 |      0.74 |                     4.11 |                    0.92 |                  4.09 |                 0.83 |             1.36 |            0.72 |                 1.32 |                0.66 |
+| Research and Development |               12.62 |               2.39 |       0.73 |      0.74 |                     4.04 |                    0.8  |                  3.99 |                 1.01 |             1.34 |            0.67 |                 1.37 |                0.85 |
+| Sales                    |               12.83 |               2.21 |       0.89 |      0.74 |                     4.09 |                    0.86 |                  4.07 |                 0.85 |             1.43 |            0.71 |                 1.26 |                0.7  |
+| Services                 |               12.87 |               2.46 |       0.99 |      0.81 |                     3.98 |                    0.86 |                  3.98 |                 0.85 |             1.28 |            0.81 |                 1.3  |                0.85 |
+| Support                  |               12.5  |               2.34 |       0.85 |      0.7  |                     4.01 |                    0.92 |                  3.96 |                 0.91 |             1.33 |            0.72 |                 1.25 |                0.81 |
+| Training                 |               12.86 |               2.13 |       0.85 |      0.73 |                     4.17 |                    0.77 |                  3.89 |                 0.86 |             1.35 |            0.77 |                 1.43 |                0.85 |
+- Support, R+D, HR, and BD scored lower on satisfaction
+- Accounting, Engineering, Legal scored highest on satisfaction
+- There was high varience in Services, R+D, and HR on satisfaction
+- Legal, R+D, Support, Training, HR scored the lowest on wlb.
+- Accounting, Services, Marketing, and Engineering scored the highest on wlb.
+- Engineering, R+D, Services, Marketing, HR scored low on leadership support.
+- Training and Accounting scored highon leadership support.
+- Values were generally consistant across departments on leadership support.
+- Training, HR, Services, Support scored lower on manager support.
+- Marketing and Product Managment scored high on manager support.
+- Values were generally consistant across departments on manager support.
+- Values are similar but the Services team is the lowest on inclusion.
+- HR, BD, and Support stand out on the low end on role alignment.
+- Training, Marketing, and R+D stand out on the high end on role alignment.
 
 # Examine Female Employee Metrics Further
 ## Race
