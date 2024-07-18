@@ -671,166 +671,59 @@
 
 # Examine Female Employee Metrics Further
 ## Race
-### Satisfaction
-| Race             |   Count |   Mean |   Std |
-|:-----------------|-------------------------:|------------------------:|-----------------------:|
-| African American |                       46 |                   10.63 |                   1.77 |
-| Asian            |                      123 |                   12.62 |                   1.79 |
-| Caucasian        |                      256 |                   11.82 |                   1.93 |
-| Hispanic         |                       45 |                   10.49 |                   1.98 |
-| Other            |                       20 |                   10.55 |                   1.61 |
+### Metrics
+| Race             |    Male Satisfaction Mean |    Female Satisfaction Mean |   Male WLB Mean |   Female WlB Mean |   Male Leadership Support Mean |   Female Leadership Support Mean |  Male Manager Support Mean |   Female Manager Support Mean |   Male Inclusion Mean |  Female Inclusion Mean |   Male Role Alignment Mean |  Female Role Alignment Mean |
+|:-----------------|-------------------------:|---------------------------:|----------------:|------------------:|------------------------------:|--------------------------------:|---------------------------:|-----------------------------:|----------------------:|------------------------:|--------------------------:|----------------------------:|
+| African American |                    11.82 |                      10.63 |            0.89 |              0.7  |                          3.86 |                            3.72 |                       3.86 |                         3.2  |                  0.59 |                    0.78 |                      1.25 |                        1.43 |
+| Asian            |                    13.71 |                      12.62 |            1.08 |              0.78 |                          4.29 |                            4.14 |                       4.46 |                         3.85 |                  1.55 |                    1.52 |                      1.27 |                        1.33 |
+| Caucasian        |                    14.74 |                      11.82 |            1.02 |              0.79 |                          4.58 |                            3.82 |                       4.72 |                         3.66 |                  1.93 |                    1.24 |                      1.29 |                        1.29 |
+| Hispanic         |                    12.08 |                      10.49 |            1.1  |              0.78 |                          3.69 |                            3.42 |                       3.98 |                         3.27 |                  0.59 |                    0.62 |                      1.37 |                        1.36 |
+| Other            |                    11.48 |                      10.55 |            0.87 |              0.8  |                          3.48 |                            3.45 |                       3.87 |                         3.25 |                  0.57 |                    0.75 |                      1.39 |                        1.4  |
 - Women of color tended to have less overall satisfaction
-- Asian women stood out as positive outliers
-
-### Work-Life Balance
-| Race             |   Count |   Mean |   Std |
-|:-----------------|-------------------:|------------------:|-----------------:|
-| African American |                 46 |              0.7  |             0.59 |
-| Asian            |                123 |              0.78 |             0.68 |
-| Caucasian        |                256 |              0.79 |             0.74 |
-| Hispanic         |                 45 |              0.78 |             0.7  |
-| Other            |                 20 |              0.8  |             0.95 |
+- Asian women stood out as positive outliers for satisfaction
 - Work life balance was fairly balanced across race
-- The varience of Other employees was relativly high
-
-### Leadership Support
-| Race             |   Count |   Mean |   Std |
-|:-----------------|---------------------------------:|--------------------------------:|-------------------------------:|
-| African American |                               46 |                            3.72 |                           0.86 |
-| Asian            |                              123 |                            4.14 |                           0.67 |
-| Caucasian        |                              256 |                            3.82 |                           0.85 |
-| Hispanic         |                               45 |                            3.42 |                           0.78 |
-| Other            |                               20 |                            3.45 |      0.76 |
+- Women of color tended to have less overall support from their managers
+- Asian women stand out as a positive outlier for leadership support
 - Leadership support is fairly balanced
 - Asian women stand out as a positive outlier
 
-### Manager Support
-| race             |   Count |   Mean |   Std |
-|:-----------------|------------------------------:|-----------------------------:|----------------------------:|
-| African American |                            46 |                         3.2  |                        0.86 |
-| Asian            |                           123 |                         3.85 |                        0.79 |
-| Caucasian        |                           256 |                         3.66 |                        0.9  |
-| Hispanic         |                            45 |                         3.27 |                        0.81 |
-| Other            |                            20 |                         3.25 |                        0.55 |
-- Women of color tended to have less overall support from their managers
-- Asian women stand out as a positive outlier
-
 ## Department
-### Satisfaction
-| Department               |   Count |   Mean |   Std |
-|:-------------------------|-------------------------:|------------------------:|-----------------------:|
-| Accounting               |                       35 |                   11.86 |                   2.06 |
-| Business Development     |                       37 |                   11.95 |                   1.88 |
-| Engineering              |                       41 |                   12.02 |                   1.9  |
-| Human Resources          |                       31 |                   10.71 |                   1.75 |
-| Legal                    |                       39 |                   11.79 |                   1.92 |
-| Marketing                |                       44 |                   12.25 |                   2.09 |
-| Product Management       |                       47 |                   11.94 |                   1.87 |
-| Research and Development |                       40 |                   11.55 |                   2.19 |
-| Sales                    |                       41 |                   11.1  |                   1.37 |
-| Services                 |                       44 |                   12.27 |                   2.46 |
-| Support                  |                       51 |                   11.39 |                   2.09 |
-| Training                 |                       40 |                   11.75 |                   1.77 |
+### Metrics
+| Department             |    Male Satisfaction Mean |    Female Satisfaction Mean |   Male WLB Mean |   Female WlB Mean |   Male Leadership Support Mean |   Female Leadership Support Mean |  Male Manager Support Mean |   Female Manager Support Mean |   Male Inclusion Mean |  Female Inclusion Mean |   Male Role Alignment Mean |  Female Role Alignment Mean |
+|:-------------------------|-------------------------:|---------------------------:|----------------:|------------------:|------------------------------:|--------------------------------:|---------------------------:|-----------------------------:|----------------------:|------------------------:|--------------------------:|----------------------------:|
+| Accounting               |                    14.02 |                      11.86 |            1.15 |              0.89 |                          4.42 |                            3.91 |                       4.53 |                         3.49 |                  1.55 |                    1.29 |                      1.35 |                        1.29 |
+| Business Development     |                    13.52 |                      11.95 |            1.09 |              0.7  |                          4.32 |                            3.78 |                       4.45 |                         3.92 |                  1.32 |                    1.27 |                      1.2  |                        1.27 |
+| Engineering              |                    13.89 |                      12.02 |            0.98 |              0.88 |                          4.21 |                            3.8  |                       4.53 |                         3.73 |                  1.57 |                    1.17 |                      1.32 |                        1.49 |
+| Human Resources          |                    13.79 |                      10.71 |            0.95 |              0.74 |                          4.33 |                            3.74 |                       4.57 |                         3.16 |                  1.6  |                    1.03 |                      1.26 |                        1.06 |
+| Legal                    |                    14.02 |                      11.79 |            0.96 |              0.64 |                          4.47 |                            3.95 |                       4.56 |                         3.69 |                  1.56 |                    1.28 |                      1.16 |                        1.46 |
+| Marketing                |                    13.71 |                      12.25 |            1.16 |              0.73 |                          4.21 |                            3.93 |                       4.42 |                         3.8  |                  1.53 |                    1.36 |                      1.18 |                        1.55 |
+| Product Management       |                    13.85 |                      11.94 |            1.02 |              0.96 |                          4.28 |                            3.94 |                       4.51 |                         3.66 |                  1.53 |                    1.19 |                      1.32 |                        1.32 |
+| Research and Development |                    14    |                      11.55 |            0.87 |              0.62 |                          4.26 |                            3.88 |                       4.52 |                         3.58 |                  1.55 |                    1.18 |                      1.48 |                        1.27 |
+| Sales                    |                    14.17 |                      11.1  |            1.08 |              0.66 |                          4.38 |                            3.71 |                       4.51 |                         3.51 |                  1.62 |                    1.17 |                      1.38 |                        1.1  |
+| Services                 |                    13.43 |                      12.27 |            0.98 |              1    |                          4.13 |                            3.82 |                       4.28 |                         3.66 |                  1.48 |                    1.07 |                      1.24 |                        1.36 |
+| Support                  |                    13.76 |                      11.39 |            0.98 |              0.75 |                          4.31 |                            3.75 |                       4.44 |                         3.53 |                  1.51 |                    1.18 |                      1.29 |                        1.22 |
+| Training                 |                    14.25 |                      11.75 |            1.03 |              0.7  |                          4.53 |                            3.88 |                       4.41 |                         3.48 |                  1.69 |                    1.08 |                      1.44 |                        1.42 |
 - Women in HR, Sales, and Support stood out as lower overall satisfaction
-- Varience among Services is higher
 - Marketing and Services stood out as having high satisfaction
-
-### Work-Life Balance
-| Department               |   Count |   Mean |   Std |
-|:-------------------------|-------------------:|------------------:|-----------------:|
-| Accounting               |                 35 |              0.89 |             0.87 |
-| Business Development     |                 37 |              0.7  |             0.66 |
-| Engineering              |                 41 |              0.88 |             0.71 |
-| Human Resources          |                 31 |              0.74 |             0.73 |
-| Legal                    |                 39 |              0.64 |             0.58 |
-| Marketing                |                 44 |              0.73 |             0.79 |
-| Product Management       |                 47 |              0.96 |             0.66 |
-| Research and Development |                 40 |              0.62 |             0.74 |
-| Sales                    |                 41 |              0.66 |             0.57 |
-| Services                 |                 44 |              1    |             0.78 |
-| Support                  |                 51 |              0.75 |             0.74 |
-| Training                 |                 40 |              0.7  |             0.69 |
-- Product Managment, Accounting and Services stood out while still relatively low
+- Product Managment, Accounting and Services stood out while still relatively low work life balance
 - Given how much of an outlier Accounting is when not controlling for Gender, this is concerning
 - Research and Development, Legal, and Sales stand out on the low end of work-life balance
-
-### Leadership Support
-| Department               |   Count |   Mean |   Std |
-|:-------------------------|---------------------------------:|--------------------------------:|-------------------------------:|
-| Accounting               |                               35 |                            3.91 |                           0.78 |
-| Business Development     |                               37 |                            3.78 |                           0.75 |
-| Engineering              |                               41 |                            3.8  |                           0.87 |
-| Human Resources          |                               31 |                            3.74 |                           0.86 |
-| Legal                    |                               39 |                            3.95 |                           0.83 |
-| Marketing                |                               44 |                            3.93 |                           0.93 |
-| Product Management       |                               47 |                            3.94 |                           0.84 |
-| Research and Development |                               40 |                            3.88 |                           0.76 |
-| Sales                    |                               41 |                            3.71 |                           0.87 |
-| Services                 |                               44 |                            3.82 |                           0.76 |
-| Support                  |                               51 |                            3.75 |                           0.93 |
-| Training                 |                               40 |                            3.88 |                           0.72 |
 - Leadership support was fairly standard across departments
-- Accoutning is a slight positive outlier
-
-### Manager Support
-| Department               |   Count |   Mean |   Std |
-|:-------------------------|------------------------------:|-----------------------------:|----------------------------:|
-| Accounting               |                            35 |                         3.49 |                        1.07 |
-| Business Development     |                            37 |                         3.92 |                        0.72 |
-| Engineering              |                            41 |                         3.73 |                        0.78 |
-| Human Resources          |                            31 |                         3.16 |                        0.86 |
-| Legal                    |                            39 |                         3.69 |                        0.86 |
-| Marketing                |                            44 |                         3.8  |                        0.88 |
-| Product Management       |                            47 |                         3.66 |                        0.84 |
-| Research and Development |                            40 |                         3.58 |                        1.01 |
-| Sales                    |                            41 |                         3.51 |                        0.71 |
-| Services                 |                            44 |                         3.66 |                        0.83 |
-| Support                  |                            51 |                         3.53 |                        0.92 |
-| Training                 |                            40 |                         3.48 |                        0.85 |
+- Accoutning is a slight positive outlier in leadership support
 - Manager suport was fairly standard across departments
-- BD stands out as a positive outlier
-- The varience among the Accounting team is high which should be examined
+- BD stands out as a positive outlier in manager support
 
 ## Level
-### Satisfaction 
-| Level       |   Count |   Mean |   Std |
-|:------------|-------------------------:|------------------------:|-----------------------:|
-| Entry Level |                      211 |                   11.82 |                   1.94 |
-| Junior      |                      177 |                   11.69 |                   1.91 |
-| Mid-Level   |                       67 |                   11.75 |                   2.1  |
-| Senior      |                       24 |                   11.54 |                   2.41 |
-| Executive   |                       11 |                   11.27 |                   3    |
+### Metrics 
+| Level             |    Male Satisfaction Mean |    Female Satisfaction Mean |   Male WLB Mean |   Female WlB Mean |   Male Leadership Support Mean |   Female Leadership Support Mean |  Male Manager Support Mean |   Female Manager Support Mean |   Male Inclusion Mean |  Female Inclusion Mean |   Male Role Alignment Mean |  Female Role Alignment Mean |
+|:------------|-------------------------:|---------------------------:|----------------:|------------------:|------------------------------:|--------------------------------:|---------------------------:|-----------------------------:|----------------------:|------------------------:|--------------------------:|----------------------------:|
+| Entry Level |                    13.76 |                      11.82 |            1.05 |              0.74 |                          4.32 |                            3.88 |                       4.4  |                         3.68 |                  1.53 |                    1.27 |                      1.31 |                        1.28 |
+| Executive   |                    14.45 |                      11.27 |            0.75 |              0.64 |                          4.6  |                            3.73 |                       4.7  |                         3.45 |                  1.75 |                    1.27 |                      1.4  |                        1.36 |
+| Junior      |                    13.77 |                      11.69 |            0.94 |              0.84 |                          4.28 |                            3.85 |                       4.52 |                         3.53 |                  1.5  |                    1.14 |                      1.24 |                        1.33 |
+| Mid-Level   |                    14.12 |                      11.75 |            1.17 |              0.7  |                          4.41 |                            3.72 |                       4.53 |                         3.6  |                  1.56 |                    1.16 |                      1.22 |                        1.48 |
+| Senior      |                    14.2  |                      11.54 |            1.17 |              0.88 |                          4.2  |                            3.83 |                       4.51 |                         3.67 |                  1.66 |                    0.96 |                      1.57 |                        1.21 |
 - Satisfaction tends to decline as Women increase in level in the organization that should be examined further
-- Varience among Executives is high indicating outliers which should be examined
-
-### Work-Life Balance
-| Level       |   Count |   Mean |   Std |
-|:------------|-------------------:|------------------:|-----------------:|
-| Entry Level |                211 |              0.74 |             0.71 |
-| Junior      |                177 |              0.84 |             0.74 |
-| Mid-Level   |                 67 |              0.7  |             0.7  |
-| Senior      |                 24 |              0.88 |             0.74 |
-| Executive   |                 11 |              0.64 |             0.5  |
 - Work life balance is balanced except for the Executive level which stands out as a negative outlier this is not surprising
-
-### Leadership Support
-| Level       |   Count |   Mean |   Std |
-|:------------|---------------------------------:|--------------------------------:|-------------------------------:|
-| Entry Level |                              211 |                            3.88 |                           0.78 |
-| Junior      |                              177 |                            3.85 |                           0.85 |
-| Mid-Level   |                               67 |                            3.72 |                           0.87 |
-| Senior      |                               24 |                            3.83 |                           0.87 |
-| Executive   |                               11 |                            3.73 |                           0.9  |
 - Leadership support is balanced across level
-- The varience tends to increase with level
-
-### Manager Support
-| Level       |   Count |   Mean |   Std |
-|:------------|------------------------------:|-----------------------------:|----------------------------:|
-| Entry Level |                           211 |                         3.68 |                        0.86 |
-| Junior      |                           177 |                         3.53 |                        0.83 |
-| Mid-Level   |                            67 |                         3.6  |                        1.03 |
-| Senior      |                            24 |                         3.67 |                        0.92 |
-| Executive   |                            11 |                         3.45 |                        0.82 |
 - Manager support is fairly balanced across level
-- There is high varience at the mid-level incicating outliers which should be examined further
+
